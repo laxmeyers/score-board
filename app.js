@@ -1,8 +1,10 @@
+// Variables
 let score1 = document.getElementById('team-1-score')
 let score2 = document.getElementById('team-2-score')
 let team1 = 0
 let team2 = 0
 
+// functions
 function reset(){
     score1.innerText = 00
     score2.innerText = 00

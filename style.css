@@ -3,6 +3,14 @@ body{
     background-size: cover;
 }
 
+.transition{
+    transition: .5s !important;
+}
+
+.transition:hover{
+    transform: translate(-8px, -10px);
+}
+
 
 .score-height{
     height: 20vh;
